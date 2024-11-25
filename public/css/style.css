@@ -1,0 +1,82 @@
+/*
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    background-image: url("../imge/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+*/
+
+  html, body {
+    height: 100%;
+    min-height: 100%;
+  }
+  
+
+  .borda{
+    max-width: 90%;
+    margin: auto;
+
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;   
+  }
+ 
+  .transparencia {
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 15px;
+  }
+
+  .s1{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .s2{
+    font-size: 12px;
+  }
+
+  .s3{
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .transp {
+    opacity:0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+  }
+  
+.form-control{
+  background-color: rgba(255,255,255,0.4);
+}
+
+.btn-custom{
+  background: #A8CF45;
+    border-color:#A8CF45;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 600px;
+    min-height: 48px;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #00385C;
+  border-color: #00385C;
+  color:#fff;
+}
+.btn-custom:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0,56,92,.25);
+}
+

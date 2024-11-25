@@ -1,0 +1,27 @@
+.t_titulo{
+    font-family: unispace;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #00385C;
+  }
+
+  .t_alinhar_centro{
+      text-align: center;
+  }
+
+  hr {
+	border: 0;
+    border-top: 2px solid  #00385C;
+    padding-bottom: 20px;
+  }
+
+input, textarea, select, option{   
+    background: #A8CF45; 
+    border: 2px solid #00385C;
+    width: 100%;
+    padding: 2px;
+  }
+  
+  td{
+    padding: 6px;
+  }

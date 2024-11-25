@@ -1,0 +1,25 @@
+/*Esqueleto do botão */
+.btn{
+    font-family: unispace;
+    cursor: pointer;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+}
+
+/*Estilo do botão */
+.btn-primary{
+    color: #00385C;
+    background-color: #A8CF45;
+}
+
+/*Tamanho do botão - pequeno */
+.btn-p{
+    padding: .5rem .75rem;
+}
+
+/*Tamanho do botão - médio */
+.btn-m{
+    padding: .75rem 1rem;
+    font-size: 14px;
+}

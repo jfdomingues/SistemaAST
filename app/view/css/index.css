@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face{
+    font-family: unispace;
+    src: url(../fonte/unispace\ bd.ttf);
+  }
+  
+  body{
+    background-color: #A8CF45;
+    font-family: unispace;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #00385C;
+}
+
+
+input, textarea, select, option{   
+  background: #A8CF45; 
+  border: 2px solid #00385C;
+  width: 100%;
+  padding: 2px;
+}
+
+td{
+  padding: 2px;
+}
+
+hr {
+	border: 0;
+  border-top: 2px solid  #00385C;
+  padding-bottom: 20px;
+}
+
+.bt-01{
+  border: 0px;
+  width: 80px;
+  height: 30px;
+  padding: 2px;
+  border: none;
+  color: #00385C;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.estilo1{
+  font-family: unispace;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #00385C;
+}
+
+/*
+.container{
+    border-color: blue;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+  }
+  */

@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ public/UsuarioEntrar.html?[L]

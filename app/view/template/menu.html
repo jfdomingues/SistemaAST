@@ -1,0 +1,48 @@
+<!--fixed-top // Fixar no topo-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home" style="color:#A8CF45;">OnSoluções</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="listarAST">AST</a>
+      </li>
+        
+        <!--Menu Área-->
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="areaList">Área</a>
+        </li>
+    
+        <li class="nav-item dropdown">          
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Usuários
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="alterarSenha">Alterar Senha</a>
+            <?php if($_SESSION['nivel'] == 'administrador'){ ?>
+            <!--<a class="dropdown-item" href="usuarioCadastrar">Cadastrar</a>-->
+            <a class="dropdown-item" href="listarUsuario">Listar</a>
+            <?php }; ?>                                   
+          </div>
+        </li>
+
+      </ul>
+      
+      <!--Nome do usuário-->
+      <?php echo "<span class='text-white pr-2 dropdown-menu-right'>Olá {$_SESSION['nome']}</span>"; ?>
+  
+
+
+
+      <!--Botão Sair-->
+      <form enctype="multipart/form-data" action="../controller/ControllerUsuario.php" method="POST">   
+        <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
+        <button type="submit" class="btn btn-outline-success my-2 my-sm-0" name="sair" value="sair">Sair</button>
+      </form>
+
+    </div>
+</nav>
