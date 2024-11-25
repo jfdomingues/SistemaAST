@@ -5,9 +5,8 @@
 
 https://onsolucoes.net/tcc/
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o intuito de averiguar de forma precisa aos procedimentos e normas implantadas relacionadas ao Bloqueio de Fonte de Energia, Permissão de Trabalho e Análise Preliminar de Risco. Através de uma pontuação percentual, a AST identifica desvios e contribui para a prevenção de acidentes de trabalho, além de promover uma Cultura de Segurança e aumenta a conscientização sobre os riscos presentes no ambiente de trabalho ao envolver os trabalhadores na realização da AST. 
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
