@@ -1,11 +1,26 @@
-# Projeto TCC 
+<h1 align="center">SistemaAST</h1>
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jfdomingues/TCC/blob/main/LICENSE)
 
 ## Sobre o projeto
+<https://onsolucoes.net/tcc/>
 
-https://onsolucoes.net/tcc/
+O sistema Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o intuito de averiguar de forma precisa aos procedimentos e normas implantadas relacionadas ao Bloqueio de Fonte de Energia, Permissão de Trabalho e Análise Preliminar de Risco. Através de uma pontuação percentual, a AST identifica desvios e contribui para a prevenção de acidentes de trabalho, além de promover uma Cultura de Segurança aumentando a conscientização sobre os riscos presentes no ambiente de trabalho.
 
-Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o intuito de averiguar de forma precisa aos procedimentos e normas implantadas relacionadas ao Bloqueio de Fonte de Energia, Permissão de Trabalho e Análise Preliminar de Risco. Através de uma pontuação percentual, a AST identifica desvios e contribui para a prevenção de acidentes de trabalho, além de promover uma Cultura de Segurança e aumenta a conscientização sobre os riscos presentes no ambiente de trabalho ao envolver os trabalhadores na realização da AST. 
+## Tecnologias utilizadas
+### Back end
+- PHP
+- JavaScript
+
+### Front end
+- HTML
+- CSS
+- JS
+- TypeScript
+- Bootstrap
+
+### Banco de Dados
+- SQL
 
 
 ## Layout mobile
@@ -19,22 +34,7 @@ Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o intuito d
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
 
-# Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+
 
 # Como executar o projeto
 
@@ -69,7 +69,10 @@ yarn install
 yarn start
 ```
 
-# Autor
+## License
+- Licensed under MIT
+
+## Autor
 Jorge Fernando Domingues
 
 E-maiL: jorge.fernado3l@hotmail.com
