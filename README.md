@@ -1,3 +1,4 @@
+(https://github.com/jfdomingues/SistemaAST/blob/main/public/img/readmi-topo.png)
 <h1 align="center">SistemaAST</h1>
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jfdomingues/SistemaAST/blob/main/LICENSE)
@@ -25,7 +26,7 @@ O sistema Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o
 
 ## Layout
 ### Diagrama de Classes
-![Web 1](https://github.com/jfdomingues/SistemaAST/tree/main/public/img/readmi-diagrama.png)
+![Web 1](https://github.com/jfdomingues/SistemaAST/blob/main/public/img/readmi-diagrama.png)
 
 <!--
 ## Layout mobile
