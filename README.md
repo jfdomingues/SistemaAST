@@ -23,6 +23,10 @@ O sistema Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o
 ### Banco de Dados
 - SQL
 
+## Layout
+### Diagrama de Classes
+![Web 1](https://github.com/jfdomingues/SistemaAST/tree/main/public/img/readmi-diagrama.png)
+
 <!--
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
