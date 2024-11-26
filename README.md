@@ -1,5 +1,4 @@
-(https://github.com/jfdomingues/SistemaAST/blob/main/public/img/readmi-topo.png)
-<h1 align="center">SistemaAST</h1>
+![](https://github.com/jfdomingues/SistemaAST/blob/main/public/img/readmi-topo.png)
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jfdomingues/SistemaAST/blob/main/LICENSE)
 
