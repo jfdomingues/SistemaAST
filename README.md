@@ -11,7 +11,7 @@ O sistema Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o
 ## Tecnologias utilizadas
 ### Back end
 - PHP
-- JavaScript
+- JS
 
 ### Front end
 - HTML
@@ -21,45 +21,37 @@ O sistema Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o
 - Bootstrap
 
 ### Banco de Dados
-- SQL
+- MySQL
+  
+### Arquitetura
+- Foi utilizado o padrão de arquitetura MVC (Model-View-Controller), amplamente utilizada no desenvolvimento de software, especialmente em aplicações web. Ele proporciona uma estrutura clara e organizada para separar as diferentes responsabilidades de uma aplicação, facilitando a manutenção, o teste e a colaboração entre desenvolvedores.
 
 ## Layout
+### Telas
+![](https://github.com/jfdomingues/SistemaAST/blob/main/public/img/readmi-tela1.png)
 ### Diagrama de Classes
 ![Web 1](https://github.com/jfdomingues/SistemaAST/blob/main/public/img/readmi-diagrama.png)
-
-<!--
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
-
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
-
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
--->
-
 
 ## Como executar o projeto
 ```bash
 # clonar repositório
 git clone https://github.com/jfdomingues/SistemaAST
 
-# entrar na pasta do projeto back end
-cd backend
+# importar um arquivo CSV para o MySQL
+1. No painel Navegador do MySQL Workbench, selecione a guia Importação/Restauração de dados
+2. Escolha a pasta do projeto ou o arquivo SQL autossuficiente
+3. Selecione o esquema para importar ou defina um novo esquema
+4. Clique em Iniciar Importação
 
-# executar o projeto
-./mvnw spring-boot:run
 ```
 
 ## License
 - Licensed under MIT
-- (https://github.com/jfdomingues/SistemaAST/blob/main/LICENSE)
+- https://github.com/jfdomingues/SistemaAST/blob/main/LICENSE
 
 ## Autor
 Jorge Fernando Domingues
 
-E-maiL: jorge.fernado3l@hotmail.com
+E-mail: jorge.fernado3l@hotmail.com
 
 https://www.linkedin.com/in/jorge-fernando-domingues-654705218
