@@ -37,11 +37,22 @@ O sistema Análise da Segurança na Tarefa-AST, trata-se de uma ferramenta com o
 # clonar repositório
 git clone https://github.com/jfdomingues/SistemaAST
 
+<<<<<<< HEAD
 # importar um arquivo CSV para o MySQL
 1. No painel Navegador do MySQL Workbench, selecione a guia Importação/Restauração de dados
 2. Escolha a pasta do projeto ou o arquivo SQL autossuficiente
 3. Selecione o esquema para importar ou defina um novo esquema
 4. Clique em Iniciar Importação
+=======
+# importar um arquivo banco.sql para o MySQL
+1. No painel Navegador no phpMyAdmin, selecione a guia Importar
+2. Clique em Escolher Arquivo e selecione o arquivo banco.sql
+3. Clique em Executar para importar o banco
+
+# login para o primeiro acesso
+atendimento@ast.com.br
+primeira2024
+>>>>>>> 593bbc13e908b95fd61916d7507d7511901d6577
 
 ```
 
