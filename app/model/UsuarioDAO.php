@@ -302,7 +302,6 @@ class UsuarioDAO
         $sql = "UPDATE usuario SET
         matricula = '{$u->getMatricula()}',
         nome = '{$u->getNome()}',
-        area = '{$u->getArea()}',
         mail = '{$u->getMail()}',
         status = '{$u->getStatus()}',
         nivel = '{$u->getNivel()}'

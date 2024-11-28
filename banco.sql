@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28-Nov-2024 às 00:51
+-- Tempo de geração: 28-Nov-2024 às 03:59
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.0.13
 
@@ -59,11 +59,11 @@ CREATE TABLE `ast` (
   `participantes` varchar(20) DEFAULT NULL,
   `atividade` varchar(60) DEFAULT NULL,
   `notaBloqueio` decimal(5,2) DEFAULT NULL,
-  `desvioBloqueio` decimal(5,2) DEFAULT NULL,
+  `desvioBloqueio` varchar(20) DEFAULT NULL,
   `notaPT` decimal(5,2) DEFAULT NULL,
-  `desvioPT` decimal(5,2) DEFAULT NULL,
+  `desvioPT` varchar(20) DEFAULT NULL,
   `notaAPR` decimal(5,2) DEFAULT NULL,
-  `desvioAPR` decimal(5,2) DEFAULT NULL,
+  `desvioAPR` varchar(20) DEFAULT NULL,
   `notaGeral` decimal(5,2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -92,7 +92,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `matricula`, `area`, `nome`, `mail`, `senha`, `dataInsert`, `dataEnter`, `dataExit`, `status`, `nivel`) VALUES
-(1, 2024, '1', 'Usuário ADM', 'atendimento@ast.com.br', '$2y$10$0WTj5EHwEDzf4.67eh7X7uwRgCMhqOvLWd8FEvXbiczNzG8qKE/u6', '2024-11-28 00:48:55', '2024-11-28 04:50:47', NULL, 'ativado', 'administrador');
+(1, 2024, '1', 'Usuário ADM', 'atendimento@ast.com.br', '$2y$10$0WTj5EHwEDzf4.67eh7X7uwRgCMhqOvLWd8FEvXbiczNzG8qKE/u6', '2024-11-28 00:48:55', '2024-11-28 05:09:19', NULL, 'ativado', 'administrador');
 
 --
 -- Índices para tabelas despejadas

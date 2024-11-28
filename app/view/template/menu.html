@@ -13,9 +13,11 @@
       </li>
         
         <!--Menu Área-->
+        <?php if($_SESSION['nivel'] == 'administrador'){ ?>
         <li class="nav-item dropdown">
           <a class="nav-link" href="areaList">Área</a>
         </li>
+        <?php }; ?>  
     
         <li class="nav-item dropdown">          
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

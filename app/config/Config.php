@@ -21,4 +21,5 @@ class Config{
         'user'  => 'root',
         'pass'  => ''
     ]; 
+
 }

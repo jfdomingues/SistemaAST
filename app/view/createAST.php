@@ -53,7 +53,7 @@
         </div>
         <div class="col">
           <select class="form-control form-control-lg" name="desvioBloqueio" aria-label="Default select example">
-            <option selected>Desvio:</option>
+            <option value="" selected>Desvio:</option>
             <option value="Operador">Operador</option>
             <option value="Executante">Executante</option>
           </select>
@@ -75,7 +75,7 @@
         </div>
         <div class="col">
           <select class="form-control form-control-lg" name="desvioPT" aria-label="Default select example">
-            <option selected>Desvio:</option>
+          <option value="" selected>Desvio:</option>
             <option value="Operador">Operador</option>
             <option value="Executante">Executante</option>
           </select>
@@ -96,7 +96,7 @@
         </div>
         <div class="col">
           <select class="form-control form-control-lg" name="desvioAPR" aria-label="Default select example">
-            <option selected>Desvio:</option>
+          <option value="" selected>Desvio:</option>
             <option value="Operador">Operador</option>
             <option value="Executante">Executante</option>
           </select>

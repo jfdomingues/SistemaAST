@@ -44,7 +44,6 @@ if(!empty($_POST['atualizarUsuario']))
     $at->setId($_POST['id']);
     $at->setMatricula($_POST['matricula']);
     $at->setNome($_POST['nome']);
-    $at->setArea($_POST['area']);
     $at->setMail($_POST['mail']);
     $at->setStatus($_POST['status']);
     $at->setNivel($_POST['nivel']);   

@@ -45,37 +45,60 @@ $verAST->astView();
   <br>
 
 
-  <label>Bloqueio de Fonte de Energia:</label>
-  <div class="progress" style="height: 30px;">
-    <div class="progress-bar" role="progressbar" style="width: <?php {echo $verAST->notaBloqueio;}?>%;" 
-    aria-valuenow="<?php {echo $verAST->notaBloqueio;}?>" aria-valuemin="0"
-    aria-valuemax="100"><?php {echo $verAST->notaBloqueio;}?>%</div>
-  </div>
-  <br>
+  <?php
+  if(isset($verAST->notaBloqueio)){
+    echo "
+      <label>Bloqueio de Fonte de Energia:</label>
+      <div class='progress' style='height: 30px;'>
+        <div class='progress-bar' role='progressbar' style='width:{$verAST->notaBloqueio}%;' 
+        aria-valuenow='{$verAST->notaBloqueio}' aria-valuemin='0'
+        aria-valuemax='100'>{$verAST->notaBloqueio}%</div>
+        </div>
+      ";
+    }
+    if (isset($verAST->desvioBloqueio) && ($verAST->notaBloqueio !== '100.00')) {
+      echo "<p style='color:red; border=0; padding=0'>Desvio: {$verAST->desvioBloqueio}</p>";
+    }
 
-  <label>Permissão de Trabalho:</label>
-  <div class="progress" style="height: 30px;">
-    <div class="progress-bar" role="progressbar" style="width: <?php {echo $verAST->notaPT;}?>%;" 
-    aria-valuenow="<?php {echo $verAST->notaPT;}?>" aria-valuemin="0"
-    aria-valuemax="100"><?php {echo $verAST->notaPT;}?>%</div>
-  </div>
-  <br>
 
-  <label>Análise Preliminar de Risco:</label>
-  <div class="progress" style="height: 30px;">
-    <div class="progress-bar" role="progressbar" style="width: <?php {echo $verAST->notaAPR;}?>%;" 
-    aria-valuenow="<?php {echo $verAST->notaAPR;}?>" aria-valuemin="0"
-    aria-valuemax="100"><?php {echo $verAST->notaAPR;}?>%</div>
-  </div>
-  <br>
+  if(isset($verAST->notaPT)){
+    echo "
+      <br><label>Permissão de Trabalho:</label>
+      <div class='progress' style='height: 30px;'>
+        <div class='progress-bar' role='progressbar' style='width:{$verAST->notaPT}%;' 
+        aria-valuenow='{$verAST->notaPT}' aria-valuemin='0'
+        aria-valuemax='100'>{$verAST->notaPT}%</div>
+      </div>
+    ";
+  }
+  if (isset($verAST->desvioPT) && ($verAST->notaPT !== '100.00')) {
+    echo "<p style='color:red; border=0; padding=0'>Desvio: {$verAST->desvioPT}</p>";
+  }
 
-  <label>Nota: Geral: </label>
-  <div class="progress" style="height: 30px;">
-    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?php {echo $verAST->notaGeral;}?>%;" 
-    aria-valuenow="<?php {echo $verAST->notaGeral;}?>" aria-valuemin="0"
-    aria-valuemax="100"><?php {echo $verAST->notaGeral;}?>%</div>
-  </div>
-  <br>
+  if(isset($verAST->notaAPR)){
+    echo "
+      <br><label>Análise Preliminar de Risco:</label>
+      <div class='progress' style='height: 30px;'>
+        <div class='progress-bar' role='progressbar' style='width:{$verAST->notaAPR}%;' 
+        aria-valuenow='{$verAST->notaAPR}' aria-valuemin='0'
+        aria-valuemax='100'>{$verAST->notaAPR}%</div>
+      </div>
+    ";
+  }
+  if (isset($verAST->desvioAPR) && ($verAST->notaAPR !== '100.00')) {
+    echo "<p style='color:red; border=0; padding=0'>Desvio: {$verAST->desvioAPR}</p>";
+  }
+  ?>
+
+    <!--Nota Geral-->
+    <br>
+    <label>Nota: Geral: </label>
+    <div class="progress" style="height: 30px;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: <?php {echo $verAST->notaGeral;}?>%;" 
+      aria-valuenow="<?php {echo $verAST->notaGeral;}?>" aria-valuemin="0"
+      aria-valuemax="100"><?php {echo $verAST->notaGeral;}?>%</div>
+    </div>
+    <br>
 
     <!--Botões -->
     <div class="form-group login-form text-center">
