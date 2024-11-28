@@ -22,12 +22,6 @@ if(!empty($_POST['atualizarPerfil']) OR !empty($_POST['editar']))
       value="<?php if(!empty($_POST['atualizarPerfil']) OR !empty($_POST['editar'])){echo $per->nome;}?>">
     </div>
 
-    <!--area-->
-    <div class="form-group">
-      <input type="text" name="area" required placeholder="Área:" class="form-control form-control-lg" 
-      value="<?php if(!empty($_POST['atualizarPerfil']) OR !empty($_POST['editar'])){echo $per->area;}?>">
-    </div>
-
     <!--Email-->
     <div class="form-group">
       <input type="text" name="mail" required placeholder="E-mail:" class="form-control form-control-lg"

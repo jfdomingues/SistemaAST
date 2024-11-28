@@ -17,10 +17,8 @@ class Config{
     const DB = [
         'dns'   => 'mysql',
         'host'  => 'localhost',
-        'name'  => 'tcc',
+        'name'  => 'banco',
         'user'  => 'root',
         'pass'  => ''
-    ];   
-   
+    ]; 
 }
-
